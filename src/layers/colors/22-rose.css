@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--rose-50: hsl(350 75% 98%);
+		--rose-100: hsl(350 75% 96%);
+		--rose-200: hsl(350 75% 91%);
+		--rose-300: hsl(350 75% 84%);
+		--rose-400: hsl(350 75% 65%);
+		--rose-500: hsl(350 75% 47%);
+		--rose-600: hsl(350 75% 35%);
+		--rose-700: hsl(350 75% 27%);
+		--rose-800: hsl(350 75% 17%);
+		--rose-900: hsl(350 75% 11%);
+		--rose-950: hsl(350 75% 5%);
+    
+    /* transparent */
+		--rose-base: 350 75% 35%;
+		
+		--rose-a50: hsl(var(--rose-base) / 5%);
+		--rose-a100: hsl(var(--rose-base) / 10%);
+		--rose-a200: hsl(var(--rose-base) / 20%);
+		--rose-a300: hsl(var(--rose-base) / 30%);
+		--rose-a400: hsl(var(--rose-base) / 40%);
+		--rose-a500: hsl(var(--rose-base) / 50%);
+		--rose-a600: hsl(var(--rose-base) / 60%);
+		--rose-a700: hsl(var(--rose-base) / 70%);
+		--rose-a800: hsl(var(--rose-base) / 80%);
+		--rose-a900: hsl(var(--rose-base) / 90%);
+		--rose-a950: hsl(var(--rose-base) / 95%);
+	}
+}

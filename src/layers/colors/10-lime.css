@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--lime-50: hsl(90 70% 98%);
+		--lime-100: hsl(90 70% 96%);
+		--lime-200: hsl(90 70% 91%);
+		--lime-300: hsl(90 70% 84%);
+		--lime-400: hsl(90 70% 65%);
+		--lime-500: hsl(90 70% 47%);
+		--lime-600: hsl(90 70% 35%);
+		--lime-700: hsl(90 70% 27%);
+		--lime-800: hsl(90 70% 17%);
+		--lime-900: hsl(90 70% 11%);
+		--lime-950: hsl(90 70% 5%);
+    
+    /* transparent */
+		--lime-base: 90 70% 35%;
+		
+		--lime-a50: hsl(var(--lime-base) / 5%);
+		--lime-a100: hsl(var(--lime-base) / 10%);
+		--lime-a200: hsl(var(--lime-base) / 20%);
+		--lime-a300: hsl(var(--lime-base) / 30%);
+		--lime-a400: hsl(var(--lime-base) / 40%);
+		--lime-a500: hsl(var(--lime-base) / 50%);
+		--lime-a600: hsl(var(--lime-base) / 60%);
+		--lime-a700: hsl(var(--lime-base) / 70%);
+		--lime-a800: hsl(var(--lime-base) / 80%);
+		--lime-a900: hsl(var(--lime-base) / 90%);
+		--lime-a950: hsl(var(--lime-base) / 95%);
+	}
+}

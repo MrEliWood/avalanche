@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--cyan-50: hsl(195 65% 98%);
+		--cyan-100: hsl(195 65% 96%);
+		--cyan-200: hsl(195 65% 91%);
+		--cyan-300: hsl(195 65% 84%);
+		--cyan-400: hsl(195 65% 65%);
+		--cyan-500: hsl(195 65% 47%);
+		--cyan-600: hsl(195 65% 35%);
+		--cyan-700: hsl(195 65% 27%);
+		--cyan-800: hsl(195 65% 17%);
+		--cyan-900: hsl(195 65% 11%);
+		--cyan-950: hsl(195 65% 5%);
+    
+    /* transparent */
+		--cyan-base: 195 65% 35%;
+		
+		--cyan-a50: hsl(var(--cyan-base) / 5%);
+		--cyan-a100: hsl(var(--cyan-base) / 10%);
+		--cyan-a200: hsl(var(--cyan-base) / 20%);
+		--cyan-a300: hsl(var(--cyan-base) / 30%);
+		--cyan-a400: hsl(var(--cyan-base) / 40%);
+		--cyan-a500: hsl(var(--cyan-base) / 50%);
+		--cyan-a600: hsl(var(--cyan-base) / 60%);
+		--cyan-a700: hsl(var(--cyan-base) / 70%);
+		--cyan-a800: hsl(var(--cyan-base) / 80%);
+		--cyan-a900: hsl(var(--cyan-base) / 90%);
+		--cyan-a950: hsl(var(--cyan-base) / 95%);
+	}
+}

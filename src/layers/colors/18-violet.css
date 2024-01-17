@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--violet-50: hsl(280 40% 98%);
+		--violet-100: hsl(280 40% 96%);
+		--violet-200: hsl(280 40% 91%);
+		--violet-300: hsl(280 40% 84%);
+		--violet-400: hsl(280 40% 65%);
+		--violet-500: hsl(280 40% 47%);
+		--violet-600: hsl(280 40% 35%);
+		--violet-700: hsl(280 40% 27%);
+		--violet-800: hsl(280 40% 17%);
+		--violet-900: hsl(280 40% 11%);
+		--violet-950: hsl(280 40% 5%);
+    
+    /* transparent */
+		--violet-base: 280 40% 35%;
+		
+		--violet-a50: hsl(var(--violet-base) / 5%);
+		--violet-a100: hsl(var(--violet-base) / 10%);
+		--violet-a200: hsl(var(--violet-base) / 20%);
+		--violet-a300: hsl(var(--violet-base) / 30%);
+		--violet-a400: hsl(var(--violet-base) / 40%);
+		--violet-a500: hsl(var(--violet-base) / 50%);
+		--violet-a600: hsl(var(--violet-base) / 60%);
+		--violet-a700: hsl(var(--violet-base) / 70%);
+		--violet-a800: hsl(var(--violet-base) / 80%);
+		--violet-a900: hsl(var(--violet-base) / 90%);
+		--violet-a950: hsl(var(--violet-base) / 95%);
+	}
+}

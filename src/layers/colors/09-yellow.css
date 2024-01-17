@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--yellow-50: hsl(60 100% 98%);
+		--yellow-100: hsl(60 100% 96%);
+		--yellow-200: hsl(60 100% 91%);
+		--yellow-300: hsl(60 100% 84%);
+		--yellow-400: hsl(60 100% 65%);
+		--yellow-500: hsl(60 100% 47%);
+		--yellow-600: hsl(60 100% 35%);
+		--yellow-700: hsl(60 100% 27%);
+		--yellow-800: hsl(60 100% 17%);
+		--yellow-900: hsl(60 100% 11%);
+		--yellow-950: hsl(60 100% 5%);
+    
+    /* transparent */
+		--yellow-base: 60 100% 35%;
+		
+		--yellow-a50: hsl(var(--yellow-base) / 5%);
+		--yellow-a100: hsl(var(--yellow-base) / 10%);
+		--yellow-a200: hsl(var(--yellow-base) / 20%);
+		--yellow-a300: hsl(var(--yellow-base) / 30%);
+		--yellow-a400: hsl(var(--yellow-base) / 40%);
+		--yellow-a500: hsl(var(--yellow-base) / 50%);
+		--yellow-a600: hsl(var(--yellow-base) / 60%);
+		--yellow-a700: hsl(var(--yellow-base) / 70%);
+		--yellow-a800: hsl(var(--yellow-base) / 80%);
+		--yellow-a900: hsl(var(--yellow-base) / 90%);
+		--yellow-a950: hsl(var(--yellow-base) / 95%);
+	}
+}

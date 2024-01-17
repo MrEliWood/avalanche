@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--orange-50: hsl(30 100% 98%);
+		--orange-100: hsl(30 100% 96%);
+		--orange-200: hsl(30 100% 91%);
+		--orange-300: hsl(30 100% 84%);
+		--orange-400: hsl(30 100% 65%);
+		--orange-500: hsl(30 100% 47%);
+		--orange-600: hsl(30 100% 35%);
+		--orange-700: hsl(30 100% 27%);
+		--orange-800: hsl(30 100% 17%);
+		--orange-900: hsl(30 100% 11%);
+		--orange-950: hsl(30 100% 5%);
+    
+    /* transparent */
+		--orange-base: 30 100% 35%;
+		
+		--orange-a50: hsl(var(--orange-base) / 5%);
+		--orange-a100: hsl(var(--orange-base) / 10%);
+		--orange-a200: hsl(var(--orange-base) / 20%);
+		--orange-a300: hsl(var(--orange-base) / 30%);
+		--orange-a400: hsl(var(--orange-base) / 40%);
+		--orange-a500: hsl(var(--orange-base) / 50%);
+		--orange-a600: hsl(var(--orange-base) / 60%);
+		--orange-a700: hsl(var(--orange-base) / 70%);
+		--orange-a800: hsl(var(--orange-base) / 80%);
+		--orange-a900: hsl(var(--orange-base) / 90%);
+		--orange-a950: hsl(var(--orange-base) / 95%);
+	}
+}

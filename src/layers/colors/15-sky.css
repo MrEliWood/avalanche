@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--sky-50: hsl(210 65% 98%);
+		--sky-100: hsl(210 65% 96%);
+		--sky-200: hsl(210 65% 91%);
+		--sky-300: hsl(210 65% 84%);
+		--sky-400: hsl(210 65% 65%);
+		--sky-500: hsl(210 65% 47%);
+		--sky-600: hsl(210 65% 35%);
+		--sky-700: hsl(210 65% 27%);
+		--sky-800: hsl(210 65% 17%);
+		--sky-900: hsl(210 65% 11%);
+		--sky-950: hsl(210 65% 5%);
+    
+    /* transparent */
+		--sky-base: 210 65% 35%;
+		
+		--sky-a50: hsl(var(--sky-base) / 5%);
+		--sky-a100: hsl(var(--sky-base) / 10%);
+		--sky-a200: hsl(var(--sky-base) / 20%);
+		--sky-a300: hsl(var(--sky-base) / 30%);
+		--sky-a400: hsl(var(--sky-base) / 40%);
+		--sky-a500: hsl(var(--sky-base) / 50%);
+		--sky-a600: hsl(var(--sky-base) / 60%);
+		--sky-a700: hsl(var(--sky-base) / 70%);
+		--sky-a800: hsl(var(--sky-base) / 80%);
+		--sky-a900: hsl(var(--sky-base) / 90%);
+		--sky-a950: hsl(var(--sky-base) / 95%);
+	}
+}

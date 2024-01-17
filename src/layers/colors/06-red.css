@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--red-50: hsl(0 92% 98%);
+		--red-100: hsl(0 92% 96%);
+		--red-200: hsl(0 92% 91%);
+		--red-300: hsl(0 92% 84%);
+		--red-400: hsl(0 92% 65%);
+		--red-500: hsl(0 92% 47%);
+		--red-600: hsl(0 92% 35%);
+		--red-700: hsl(0 92% 27%);
+		--red-800: hsl(0 92% 17%);
+		--red-900: hsl(0 92% 11%);
+		--red-950: hsl(0 92% 5%);
+    
+    /* transparent */
+		--red-base: 0 92% 35%;
+		
+		--red-a50: hsl(var(--red-base) / 5%);
+		--red-a100: hsl(var(--red-base) / 10%);
+		--red-a200: hsl(var(--red-base) / 20%);
+		--red-a300: hsl(var(--red-base) / 30%);
+		--red-a400: hsl(var(--red-base) / 40%);
+		--red-a500: hsl(var(--red-base) / 50%);
+		--red-a600: hsl(var(--red-base) / 60%);
+		--red-a700: hsl(var(--red-base) / 70%);
+		--red-a800: hsl(var(--red-base) / 80%);
+		--red-a900: hsl(var(--red-base) / 90%);
+		--red-a950: hsl(var(--red-base) / 95%);
+	}
+}

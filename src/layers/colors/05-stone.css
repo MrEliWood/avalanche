@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--stone-50: hsl(60 1% 98%);
+		--stone-100: hsl(60 1% 96%);
+		--stone-200: hsl(60 1% 91%);
+		--stone-300: hsl(60 1% 84%);
+		--stone-400: hsl(60 1% 65%);
+		--stone-500: hsl(60 1% 47%);
+		--stone-600: hsl(60 1% 35%);
+		--stone-700: hsl(60 1% 27%);
+		--stone-800: hsl(60 1% 17%);
+		--stone-900: hsl(60 1% 11%);
+		--stone-950: hsl(60 1% 5%);
+    
+    /* transparent */
+		--stone-base: 60 1% 5%;
+		
+		--stone-a50: hsl(var(--stone-base) / 5%);
+		--stone-a100: hsl(var(--stone-base) / 10%);
+		--stone-a200: hsl(var(--stone-base) / 20%);
+		--stone-a300: hsl(var(--stone-base) / 30%);
+		--stone-a400: hsl(var(--stone-base) / 40%);
+		--stone-a500: hsl(var(--stone-base) / 50%);
+		--stone-a600: hsl(var(--stone-base) / 60%);
+		--stone-a700: hsl(var(--stone-base) / 70%);
+		--stone-a800: hsl(var(--stone-base) / 80%);
+		--stone-a900: hsl(var(--stone-base) / 90%);
+		--stone-a950: hsl(var(--stone-base) / 95%);
+	}
+}

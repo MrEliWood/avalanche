@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--zinc-50: hsl(240 4% 96%);
+		--zinc-100: hsl(240 4% 94%);
+		--zinc-200: hsl(240 4% 89%);
+		--zinc-300: hsl(240 4% 82%);
+		--zinc-400: hsl(240 4% 65%);
+		--zinc-500: hsl(240 4% 47%);
+		--zinc-600: hsl(240 4% 35%);
+		--zinc-700: hsl(240 4% 27%);
+		--zinc-800: hsl(240 4% 17%);
+		--zinc-900: hsl(240 4% 11%);
+		--zinc-950: hsl(240 4% 5%);
+    
+    /* transparent */
+		--zinc-base: 240 4% 5%;
+		
+		--zinc-a50: hsl(var(--zinc-base) / 5%);
+		--zinc-a100: hsl(var(--zinc-base) / 10%);
+		--zinc-a200: hsl(var(--zinc-base) / 20%);
+		--zinc-a300: hsl(var(--zinc-base) / 30%);
+		--zinc-a400: hsl(var(--zinc-base) / 40%);
+		--zinc-a500: hsl(var(--zinc-base) / 50%);
+		--zinc-a600: hsl(var(--zinc-base) / 60%);
+		--zinc-a700: hsl(var(--zinc-base) / 70%);
+		--zinc-a800: hsl(var(--zinc-base) / 80%);
+		--zinc-a900: hsl(var(--zinc-base) / 90%);
+		--zinc-a950: hsl(var(--zinc-base) / 95%);
+	}
+}

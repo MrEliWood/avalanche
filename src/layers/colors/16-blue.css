@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--blue-50: hsl(240 65% 98%);
+		--blue-100: hsl(240 65% 96%);
+		--blue-200: hsl(240 65% 91%);
+		--blue-300: hsl(240 65% 84%);
+		--blue-400: hsl(240 65% 65%);
+		--blue-500: hsl(240 65% 47%);
+		--blue-600: hsl(240 65% 35%);
+		--blue-700: hsl(240 65% 27%);
+		--blue-800: hsl(240 65% 17%);
+		--blue-900: hsl(240 65% 11%);
+		--blue-950: hsl(240 65% 5%);
+    
+    /* transparent */
+		--blue-base: 240 65% 35%;
+		
+		--blue-a50: hsl(var(--blue-base) / 5%);
+		--blue-a100: hsl(var(--blue-base) / 10%);
+		--blue-a200: hsl(var(--blue-base) / 20%);
+		--blue-a300: hsl(var(--blue-base) / 30%);
+		--blue-a400: hsl(var(--blue-base) / 40%);
+		--blue-a500: hsl(var(--blue-base) / 50%);
+		--blue-a600: hsl(var(--blue-base) / 60%);
+		--blue-a700: hsl(var(--blue-base) / 70%);
+		--blue-a800: hsl(var(--blue-base) / 80%);
+		--blue-a900: hsl(var(--blue-base) / 90%);
+		--blue-a950: hsl(var(--blue-base) / 95%);
+	}
+}

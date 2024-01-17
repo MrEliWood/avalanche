@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--purple-50: hsl(300 40% 98%);
+		--purple-100: hsl(300 40% 96%);
+		--purple-200: hsl(300 40% 91%);
+		--purple-300: hsl(300 40% 84%);
+		--purple-400: hsl(300 40% 65%);
+		--purple-500: hsl(300 40% 47%);
+		--purple-600: hsl(300 40% 35%);
+		--purple-700: hsl(300 40% 27%);
+		--purple-800: hsl(300 40% 17%);
+		--purple-900: hsl(300 40% 11%);
+		--purple-950: hsl(300 40% 5%);
+    
+    /* transparent */
+		--purple-base: 300 40% 35%;
+		
+		--purple-a50: hsl(var(--purple-base) / 5%);
+		--purple-a100: hsl(var(--purple-base) / 10%);
+		--purple-a200: hsl(var(--purple-base) / 20%);
+		--purple-a300: hsl(var(--purple-base) / 30%);
+		--purple-a400: hsl(var(--purple-base) / 40%);
+		--purple-a500: hsl(var(--purple-base) / 50%);
+		--purple-a600: hsl(var(--purple-base) / 60%);
+		--purple-a700: hsl(var(--purple-base) / 70%);
+		--purple-a800: hsl(var(--purple-base) / 80%);
+		--purple-a900: hsl(var(--purple-base) / 90%);
+		--purple-a950: hsl(var(--purple-base) / 95%);
+	}
+}

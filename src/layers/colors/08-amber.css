@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--amber-50: hsl(45 100% 98%);
+		--amber-100: hsl(45 100% 96%);
+		--amber-200: hsl(45 100% 91%);
+		--amber-300: hsl(45 100% 84%);
+		--amber-400: hsl(45 100% 65%);
+		--amber-500: hsl(45 100% 47%);
+		--amber-600: hsl(45 100% 35%);
+		--amber-700: hsl(45 100% 27%);
+		--amber-800: hsl(45 100% 17%);
+		--amber-900: hsl(45 100% 11%);
+		--amber-950: hsl(45 100% 5%);
+    
+    /* transparent */
+		--amber-base: 45 100% 35%;
+		
+		--amber-a50: hsl(var(--amber-base) / 5%);
+		--amber-a100: hsl(var(--amber-base) / 10%);
+		--amber-a200: hsl(var(--amber-base) / 20%);
+		--amber-a300: hsl(var(--amber-base) / 30%);
+		--amber-a400: hsl(var(--amber-base) / 40%);
+		--amber-a500: hsl(var(--amber-base) / 50%);
+		--amber-a600: hsl(var(--amber-base) / 60%);
+		--amber-a700: hsl(var(--amber-base) / 70%);
+		--amber-a800: hsl(var(--amber-base) / 80%);
+		--amber-a900: hsl(var(--amber-base) / 90%);
+		--amber-a950: hsl(var(--amber-base) / 95%);
+	}
+}

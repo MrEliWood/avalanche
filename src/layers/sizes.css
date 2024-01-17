@@ -1,0 +1,70 @@
+@layer superset {
+	@layer sizes {
+		:root {
+			/*** from theme ***********************************
+        --base-size
+      **************************************************/
+
+			/* base */
+			--size: var(--base-size);
+
+			/* tenths */
+			--size-10: calc(var(--size) * 0.1);
+			--size-20: calc(var(--size) * 0.2);
+			--size-30: calc(var(--size) * 0.3);
+			--size-40: calc(var(--size) * 0.4);
+			--size-50: calc(var(--size) * 0.5);
+			--size-60: calc(var(--size) * 0.6);
+			--size-70: calc(var(--size) * 0.7);
+			--size-80: calc(var(--size) * 0.8);
+			--size-90: calc(var(--size) * 0.9);
+
+			/* quarters */
+			--size-25: calc(var(--size) * 0.25);
+			--size-75: calc(var(--size) * 0.75);
+
+			/* thirds */
+			--size-33: calc(var(--size) * 1 / 3);
+			--size-66: calc(var(--size) * 2 / 3);
+
+			/* multiples (step: 0.25) */
+			--size-100: var(--size);
+			--size-125: calc(var(--size) * 1.25);
+			--size-150: calc(var(--size) * 1.5);
+			--size-175: calc(var(--size) * 1.75);
+
+			--size-200: calc(var(--size) * 2);
+			--size-225: calc(var(--size) * 2.25);
+			--size-250: calc(var(--size) * 2.5);
+			--size-275: calc(var(--size) * 2.75);
+
+			--size-300: calc(var(--size) * 3);
+			--size-325: calc(var(--size) * 3.25);
+			--size-350: calc(var(--size) * 3.5);
+			--size-375: calc(var(--size) * 3.75);
+
+			--size-400: calc(var(--size) * 4);
+			--size-425: calc(var(--size) * 4.25);
+			--size-450: calc(var(--size) * 4.5);
+			--size-475: calc(var(--size) * 4.75);
+
+			/* multiples (step: 0.5) */
+			--size-500: calc(var(--size) * 5);
+			--size-550: calc(var(--size) * 5.5);
+
+			--size-600: calc(var(--size) * 6);
+			--size-650: calc(var(--size) * 6.5);
+
+			--size-700: calc(var(--size) * 7);
+			--size-750: calc(var(--size) * 7.5);
+
+			--size-800: calc(var(--size) * 8);
+			--size-850: calc(var(--size) * 8.5);
+
+			--size-900: calc(var(--size) * 9);
+			--size-950: calc(var(--size) * 9.5);
+
+			--size-1000: calc(var(--size) * 10);
+		}
+	}
+}

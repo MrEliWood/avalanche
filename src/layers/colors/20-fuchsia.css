@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--fuchsia-50: hsl(320 65% 98%);
+		--fuchsia-100: hsl(320 65% 96%);
+		--fuchsia-200: hsl(320 65% 91%);
+		--fuchsia-300: hsl(320 65% 84%);
+		--fuchsia-400: hsl(320 65% 65%);
+		--fuchsia-500: hsl(320 65% 47%);
+		--fuchsia-600: hsl(320 65% 35%);
+		--fuchsia-700: hsl(320 65% 27%);
+		--fuchsia-800: hsl(320 65% 17%);
+		--fuchsia-900: hsl(320 65% 11%);
+		--fuchsia-950: hsl(320 65% 5%);
+    
+    /* transparent */
+		--fuchsia-base: 320 65% 35%;
+		
+		--fuchsia-a50: hsl(var(--fuchsia-base) / 5%);
+		--fuchsia-a100: hsl(var(--fuchsia-base) / 10%);
+		--fuchsia-a200: hsl(var(--fuchsia-base) / 20%);
+		--fuchsia-a300: hsl(var(--fuchsia-base) / 30%);
+		--fuchsia-a400: hsl(var(--fuchsia-base) / 40%);
+		--fuchsia-a500: hsl(var(--fuchsia-base) / 50%);
+		--fuchsia-a600: hsl(var(--fuchsia-base) / 60%);
+		--fuchsia-a700: hsl(var(--fuchsia-base) / 70%);
+		--fuchsia-a800: hsl(var(--fuchsia-base) / 80%);
+		--fuchsia-a900: hsl(var(--fuchsia-base) / 90%);
+		--fuchsia-a950: hsl(var(--fuchsia-base) / 95%);
+	}
+}

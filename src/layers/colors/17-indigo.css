@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--indigo-50: hsl(260 65% 98%);
+		--indigo-100: hsl(260 65% 96%);
+		--indigo-200: hsl(260 65% 91%);
+		--indigo-300: hsl(260 65% 84%);
+		--indigo-400: hsl(260 65% 65%);
+		--indigo-500: hsl(260 65% 47%);
+		--indigo-600: hsl(260 65% 35%);
+		--indigo-700: hsl(260 65% 27%);
+		--indigo-800: hsl(260 65% 17%);
+		--indigo-900: hsl(260 65% 11%);
+		--indigo-950: hsl(260 65% 5%);
+    
+    /* transparent */
+		--indigo-base: 260 65% 35%;
+		
+		--indigo-a50: hsl(var(--indigo-base) / 5%);
+		--indigo-a100: hsl(var(--indigo-base) / 10%);
+		--indigo-a200: hsl(var(--indigo-base) / 20%);
+		--indigo-a300: hsl(var(--indigo-base) / 30%);
+		--indigo-a400: hsl(var(--indigo-base) / 40%);
+		--indigo-a500: hsl(var(--indigo-base) / 50%);
+		--indigo-a600: hsl(var(--indigo-base) / 60%);
+		--indigo-a700: hsl(var(--indigo-base) / 70%);
+		--indigo-a800: hsl(var(--indigo-base) / 80%);
+		--indigo-a900: hsl(var(--indigo-base) / 90%);
+		--indigo-a950: hsl(var(--indigo-base) / 95%);
+	}
+}

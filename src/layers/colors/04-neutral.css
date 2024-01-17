@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--neutral-50: hsl(0 0% 98%);
+		--neutral-100: hsl(0 0% 96%);
+		--neutral-200: hsl(0 0% 91%);
+		--neutral-300: hsl(0 0% 84%);
+		--neutral-400: hsl(0 0% 65%);
+		--neutral-500: hsl(0 0% 47%);
+		--neutral-600: hsl(0 0% 35%);
+		--neutral-700: hsl(0 0% 27%);
+		--neutral-800: hsl(0 0% 17%);
+		--neutral-900: hsl(0 0% 11%);
+		--neutral-950: hsl(0 0% 5%);
+    
+    /* transparent */
+		--neutral-base: 0 0% 5%;
+		
+		--neutral-a50: hsl(var(--neutral-base) / 5%);
+		--neutral-a100: hsl(var(--neutral-base) / 10%);
+		--neutral-a200: hsl(var(--neutral-base) / 20%);
+		--neutral-a300: hsl(var(--neutral-base) / 30%);
+		--neutral-a400: hsl(var(--neutral-base) / 40%);
+		--neutral-a500: hsl(var(--neutral-base) / 50%);
+		--neutral-a600: hsl(var(--neutral-base) / 60%);
+		--neutral-a700: hsl(var(--neutral-base) / 70%);
+		--neutral-a800: hsl(var(--neutral-base) / 80%);
+		--neutral-a900: hsl(var(--neutral-base) / 90%);
+		--neutral-a950: hsl(var(--neutral-base) / 95%);
+	}
+}

@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--teal-50: hsl(180 45% 98%);
+		--teal-100: hsl(180 45% 96%);
+		--teal-200: hsl(180 45% 91%);
+		--teal-300: hsl(180 45% 84%);
+		--teal-400: hsl(180 45% 65%);
+		--teal-500: hsl(180 45% 47%);
+		--teal-600: hsl(180 45% 35%);
+		--teal-700: hsl(180 45% 27%);
+		--teal-800: hsl(180 45% 17%);
+		--teal-900: hsl(180 45% 11%);
+		--teal-950: hsl(180 45% 5%);
+    
+    /* transparent */
+		--teal-base: 180 45% 35%;
+		
+		--teal-a50: hsl(var(--teal-base) / 5%);
+		--teal-a100: hsl(var(--teal-base) / 10%);
+		--teal-a200: hsl(var(--teal-base) / 20%);
+		--teal-a300: hsl(var(--teal-base) / 30%);
+		--teal-a400: hsl(var(--teal-base) / 40%);
+		--teal-a500: hsl(var(--teal-base) / 50%);
+		--teal-a600: hsl(var(--teal-base) / 60%);
+		--teal-a700: hsl(var(--teal-base) / 70%);
+		--teal-a800: hsl(var(--teal-base) / 80%);
+		--teal-a900: hsl(var(--teal-base) / 90%);
+		--teal-a950: hsl(var(--teal-base) / 95%);
+	}
+}

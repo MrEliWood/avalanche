@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--green-50: hsl(120 40% 98%);
+		--green-100: hsl(120 40% 96%);
+		--green-200: hsl(120 40% 91%);
+		--green-300: hsl(120 40% 84%);
+		--green-400: hsl(120 40% 65%);
+		--green-500: hsl(120 40% 47%);
+		--green-600: hsl(120 40% 35%);
+		--green-700: hsl(120 40% 27%);
+		--green-800: hsl(120 40% 17%);
+		--green-900: hsl(120 40% 11%);
+		--green-950: hsl(120 40% 5%);
+    
+    /* transparent */
+		--green-base: 120 40% 35%;
+		
+		--green-a50: hsl(var(--green-base) / 5%);
+		--green-a100: hsl(var(--green-base) / 10%);
+		--green-a200: hsl(var(--green-base) / 20%);
+		--green-a300: hsl(var(--green-base) / 30%);
+		--green-a400: hsl(var(--green-base) / 40%);
+		--green-a500: hsl(var(--green-base) / 50%);
+		--green-a600: hsl(var(--green-base) / 60%);
+		--green-a700: hsl(var(--green-base) / 70%);
+		--green-a800: hsl(var(--green-base) / 80%);
+		--green-a900: hsl(var(--green-base) / 90%);
+		--green-a950: hsl(var(--green-base) / 95%);
+	}
+}

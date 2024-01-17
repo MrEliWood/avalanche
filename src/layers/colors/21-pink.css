@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--pink-50: hsl(340 65% 98%);
+		--pink-100: hsl(340 65% 96%);
+		--pink-200: hsl(340 65% 91%);
+		--pink-300: hsl(340 65% 84%);
+		--pink-400: hsl(340 65% 65%);
+		--pink-500: hsl(340 65% 47%);
+		--pink-600: hsl(340 65% 35%);
+		--pink-700: hsl(340 65% 27%);
+		--pink-800: hsl(340 65% 17%);
+		--pink-900: hsl(340 65% 11%);
+		--pink-950: hsl(340 65% 5%);
+    
+    /* transparent */
+		--pink-base: 340 65% 35%;
+		
+		--pink-a50: hsl(var(--pink-base) / 5%);
+		--pink-a100: hsl(var(--pink-base) / 10%);
+		--pink-a200: hsl(var(--pink-base) / 20%);
+		--pink-a300: hsl(var(--pink-base) / 30%);
+		--pink-a400: hsl(var(--pink-base) / 40%);
+		--pink-a500: hsl(var(--pink-base) / 50%);
+		--pink-a600: hsl(var(--pink-base) / 60%);
+		--pink-a700: hsl(var(--pink-base) / 70%);
+		--pink-a800: hsl(var(--pink-base) / 80%);
+		--pink-a900: hsl(var(--pink-base) / 90%);
+		--pink-a950: hsl(var(--pink-base) / 95%);
+	}
+}

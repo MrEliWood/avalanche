@@ -1,0 +1,36 @@
+/*** DO NOT EDIT **********************************
+  file handled by color manager
+  changes may be overwritten
+**************************************************/
+
+@layer colors {
+	:root {
+		/* solid */
+		--emerald-50: hsl(145 65% 98%);
+		--emerald-100: hsl(145 65% 96%);
+		--emerald-200: hsl(145 65% 91%);
+		--emerald-300: hsl(145 65% 84%);
+		--emerald-400: hsl(145 65% 65%);
+		--emerald-500: hsl(145 65% 47%);
+		--emerald-600: hsl(145 65% 35%);
+		--emerald-700: hsl(145 65% 27%);
+		--emerald-800: hsl(145 65% 17%);
+		--emerald-900: hsl(145 65% 11%);
+		--emerald-950: hsl(145 65% 5%);
+    
+    /* transparent */
+		--emerald-base: 145 65% 35%;
+		
+		--emerald-a50: hsl(var(--emerald-base) / 5%);
+		--emerald-a100: hsl(var(--emerald-base) / 10%);
+		--emerald-a200: hsl(var(--emerald-base) / 20%);
+		--emerald-a300: hsl(var(--emerald-base) / 30%);
+		--emerald-a400: hsl(var(--emerald-base) / 40%);
+		--emerald-a500: hsl(var(--emerald-base) / 50%);
+		--emerald-a600: hsl(var(--emerald-base) / 60%);
+		--emerald-a700: hsl(var(--emerald-base) / 70%);
+		--emerald-a800: hsl(var(--emerald-base) / 80%);
+		--emerald-a900: hsl(var(--emerald-base) / 90%);
+		--emerald-a950: hsl(var(--emerald-base) / 95%);
+	}
+}

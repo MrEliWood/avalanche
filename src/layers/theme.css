@@ -1,0 +1,26 @@
+@layer theme {
+	:root {
+		/* general */
+		--base-size: 12px;
+
+		/* borders & outlines */
+		--border-width: 1px;
+		--border-style: solid;
+		--border-color: var(--gray-6);
+
+		--outline-width: 1px;
+		--outline-style: solid;
+		--outline-color: var(--gray-6);
+
+		/* fonts */
+		--font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI (Custom)', Roboto, 'Helvetica Neue', 'Open Sans (Custom)', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+		--font-size: 16px;
+
+		/* animations */
+		--transition-speed: 500ms;
+		--transition-delay: 0ms;
+
+		--transition-timing-function: ease-in-out;
+		--transition-property: all;
+	}
+}
