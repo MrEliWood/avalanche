@@ -1,0 +1,29 @@
+{
+  "name": "avalanche",
+  "version": "1.0.0",
+  "description": "Simple framework for vanilla CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEliWood/avalanche.git"
+  },
+  "keywords": [
+    "vanilla",
+    "css",
+    "framework",
+    "tailwind",
+    "font",
+    "color",
+    "size",
+    "scale"
+  ],
+  "author": "Eli Wood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrEliWood/avalanche/issues"
+  },
+  "homepage": "https://github.com/MrEliWood/avalanche#readme"
+}
