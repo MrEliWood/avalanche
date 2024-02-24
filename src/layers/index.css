@@ -1,7 +1,7 @@
 /* base */
 @layer base {
-    @layer reset;
-    @layer colors;
+  @layer reset;
+  @layer colors;
 }
 
 @import './reset.css';
@@ -13,10 +13,10 @@
 
 /* superset */
 @layer superset {
-    @layer sizes, fonts, animations, elements;
+  @layer sizes, fonts, animations, elements;
 }
 
 @import './sizes.css';
 @import './fonts.css';
-@import './elements.css';
 @import './animations.css';
+@import './elements.css';

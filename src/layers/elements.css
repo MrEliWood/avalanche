@@ -1,27 +1,33 @@
 @layer elements {
-	:root {
-		/*** from theme ***********************************
+  :root {
+    /*** from theme ***********************************
       --border-*
       --outline-*
       --size-*
-      --black-*
     **************************************************/
 
-		/* borders & outlines */
-		--border: var(--border-width) var(--border-style) var(--border-color);
-		--outline: var(--outline-width) var(--outline-style) var(--outline-color);
+    /* borders & outlines */
+    --border: var(--border-width) var(--border-style) var(--border-color);
+    --outline: var(--outline-width) var(--outline-style) var(--outline-color);
 
-		--radius-s: var(--size-50);
-		--radius-m: var(--size-100);
-		--radius-l: var(--size-200);
+    --radius-s: var(--size-50);
+    --radius-m: var(--size-100);
+    --radius-l: var(--size-200);
 
-		/* shadows */
-		--shadow-s: 0px var(--size-33) var(--size-100) var(--neutral-a400);
-		--shadow-m: 0px var(--size-66) var(--size-200) var(--neutral-a500);
-		--shadow-l: 0px var(--size-100) var(--size-300) var(--neutral-a600);
+    /* shadows */
+    --shadow-s: 0px var(--size-33) var(--size-100) var(--neutral-a100);
+    --shadow-m: 0px var(--size-50) var(--size-200) var(--neutral-a200);
+    --shadow-l: 0px var(--size-66) var(--size-300) var(--neutral-a400);
 
-		/* buttons */
-		--button-width: auto;
-		--button-height: 32px;
-	}
+    /* buttons */
+    --button-width: auto;
+    --button-height: calc(var(--size-200) + var(--size-66));
+
+    /* icons */
+    --icon: var(--icon-size);
+
+    --icon-s: calc(var(--icon-size) * 4 / 5);
+    --icon-m: calc(var(--icon-size) * 5 / 5);
+    --icon-l: calc(var(--icon-size) * 6 / 5);
+  }
 }
