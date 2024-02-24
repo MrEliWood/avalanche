@@ -1,0 +1,44 @@
+@layer colors {
+  :root {
+    /*** from theme ***********************************
+      --primary-hue
+      --primary-saturation
+      --primary-lightness
+    **************************************************/
+
+    /* shorthand */
+    --p-h: var(--primary-hue);
+    --p-s: calc(var(--primary-saturation) / 10);
+    --p-l: var(--primary-lightness);
+
+    /* solid */
+    --primary-50: hsl(var(--p-h) var(--p-s) 98%);
+    --primary-100: hsl(var(--p-h) var(--p-s) 96%);
+    --primary-200: hsl(var(--p-h) var(--p-s) 91%);
+    --primary-300: hsl(var(--p-h) var(--p-s) 84%);
+    --primary-400: hsl(var(--p-h) var(--p-s) 65%);
+    --primary-500: hsl(var(--p-h) var(--p-s) 47%);
+    --primary-600: hsl(var(--p-h) var(--p-s) 35%);
+    --primary-700: hsl(var(--p-h) var(--p-s) 27%);
+    --primary-800: hsl(var(--p-h) var(--p-s) 17%);
+    --primary-900: hsl(var(--p-h) var(--p-s) 11%);
+    --primary-950: hsl(var(--p-h) var(--p-s) 5%);
+
+    /* transparent */
+    --primary-base: var(--p-h) var(--p-s) var(--p-l);
+
+    --primary-a50: hsl(var(--primary-base) / 5%);
+    --primary-a100: hsl(var(--primary-base) / 10%);
+    --primary-a200: hsl(var(--primary-base) / 20%);
+    --primary-a300: hsl(var(--primary-base) / 30%);
+    --primary-a400: hsl(var(--primary-base) / 40%);
+    --primary-a500: hsl(var(--primary-base) / 50%);
+    --primary-a600: hsl(var(--primary-base) / 60%);
+    --primary-a700: hsl(var(--primary-base) / 70%);
+    --primary-a800: hsl(var(--primary-base) / 80%);
+    --primary-a900: hsl(var(--primary-base) / 90%);
+    --primary-a950: hsl(var(--primary-base) / 95%);
+
+    --primary: hsl(var(--primary-base));
+  }
+}

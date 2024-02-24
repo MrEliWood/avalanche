@@ -1,0 +1,44 @@
+@layer colors {
+  :root {
+    /*** from theme ***********************************
+      --secondary-hue
+      --secondary-saturation
+      --secondary-lightness
+    **************************************************/
+
+    /* shorthand */
+    --s-h: var(--secondary-hue);
+    --s-s: calc(var(--secondary-saturation) / 10);
+    --s-l: var(--secondary-lightness);
+
+    /* solid */
+    --secondary-50: hsl(var(--s-h) var(--s-s) 5%);
+    --secondary-100: hsl(var(--s-h) var(--s-s) 11%);
+    --secondary-200: hsl(var(--s-h) var(--s-s) 17%);
+    --secondary-300: hsl(var(--s-h) var(--s-s) 27%);
+    --secondary-400: hsl(var(--s-h) var(--s-s) 35%);
+    --secondary-500: hsl(var(--s-h) var(--s-s) 47%);
+    --secondary-600: hsl(var(--s-h) var(--s-s) 65%);
+    --secondary-700: hsl(var(--s-h) var(--s-s) 84%);
+    --secondary-800: hsl(var(--s-h) var(--s-s) 91%);
+    --secondary-900: hsl(var(--s-h) var(--s-s) 96%);
+    --secondary-950: hsl(var(--s-h) var(--s-s) 98%);
+
+    /* transparent */
+    --secondary-base: var(--s-h) var(--s-s) var(--s-l);
+
+    --secondary-a50: hsl(var(--secondary-base) / 5%);
+    --secondary-a100: hsl(var(--secondary-base) / 10%);
+    --secondary-a200: hsl(var(--secondary-base) / 20%);
+    --secondary-a300: hsl(var(--secondary-base) / 30%);
+    --secondary-a400: hsl(var(--secondary-base) / 40%);
+    --secondary-a500: hsl(var(--secondary-base) / 50%);
+    --secondary-a600: hsl(var(--secondary-base) / 60%);
+    --secondary-a700: hsl(var(--secondary-base) / 70%);
+    --secondary-a800: hsl(var(--secondary-base) / 80%);
+    --secondary-a900: hsl(var(--secondary-base) / 90%);
+    --secondary-a950: hsl(var(--secondary-base) / 95%);
+
+    --secondary: hsl(var(--secondary-base));
+  }
+}

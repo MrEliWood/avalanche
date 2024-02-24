@@ -1,0 +1,44 @@
+@layer colors {
+  :root {
+    /*** from theme ***********************************
+      --compliment-hue
+      --compliment-saturation
+      --compliment-lightness
+    **************************************************/
+
+    /* shorthand */
+    --c-h: var(--compliment-hue);
+    --c-s: var(--compliment-saturation);
+    --c-l: var(--compliment-lightness);
+
+    /* solid */
+    --compliment-50: hsl(var(--c-h) var(--c-s) 98%);
+    --compliment-100: hsl(var(--c-h) var(--c-s) 96%);
+    --compliment-200: hsl(var(--c-h) var(--c-s) 91%);
+    --compliment-300: hsl(var(--c-h) var(--c-s) 84%);
+    --compliment-400: hsl(var(--c-h) var(--c-s) 65%);
+    --compliment-500: hsl(var(--c-h) var(--c-s) 47%);
+    --compliment-600: hsl(var(--c-h) var(--c-s) 35%);
+    --compliment-700: hsl(var(--c-h) var(--c-s) 27%);
+    --compliment-800: hsl(var(--c-h) var(--c-s) 17%);
+    --compliment-900: hsl(var(--c-h) var(--c-s) 11%);
+    --compliment-950: hsl(var(--c-h) var(--c-s) 5%);
+
+    /* transparent */
+    --compliment-base: var(--c-h) var(--c-s) var(--c-l);
+
+    --compliment-a50: hsl(var(--compliment-base) / 5%);
+    --compliment-a100: hsl(var(--compliment-base) / 10%);
+    --compliment-a200: hsl(var(--compliment-base) / 20%);
+    --compliment-a300: hsl(var(--compliment-base) / 30%);
+    --compliment-a400: hsl(var(--compliment-base) / 40%);
+    --compliment-a500: hsl(var(--compliment-base) / 50%);
+    --compliment-a600: hsl(var(--compliment-base) / 60%);
+    --compliment-a700: hsl(var(--compliment-base) / 70%);
+    --compliment-a800: hsl(var(--compliment-base) / 80%);
+    --compliment-a900: hsl(var(--compliment-base) / 90%);
+    --compliment-a950: hsl(var(--compliment-base) / 95%);
+
+    --compliment: hsl(var(--compliment-base));
+  }
+}

@@ -1,0 +1,44 @@
+@layer colors {
+  :root {
+    /*** from theme ***********************************
+      --accent-hue
+      --accent-saturation
+      --accent-lightness
+    **************************************************/
+
+    /* shorthand */
+    --a-h: var(--accent-hue);
+    --a-s: var(--accent-saturation);
+    --a-l: var(--accent-lightness);
+
+    /* solid */
+    --accent-50: hsl(var(--a-h) var(--a-s) 98%);
+    --accent-100: hsl(var(--a-h) var(--a-s) 96%);
+    --accent-200: hsl(var(--a-h) var(--a-s) 91%);
+    --accent-300: hsl(var(--a-h) var(--a-s) 84%);
+    --accent-400: hsl(var(--a-h) var(--a-s) 65%);
+    --accent-500: hsl(var(--a-h) var(--a-s) 47%);
+    --accent-600: hsl(var(--a-h) var(--a-s) 35%);
+    --accent-700: hsl(var(--a-h) var(--a-s) 27%);
+    --accent-800: hsl(var(--a-h) var(--a-s) 17%);
+    --accent-900: hsl(var(--a-h) var(--a-s) 11%);
+    --accent-950: hsl(var(--a-h) var(--a-s) 5%);
+
+    /* transparent */
+    --accent-base: var(--a-h) var(--a-s) var(--a-l);
+
+    --accent-a50: hsl(var(--accent-base) / 5%);
+    --accent-a100: hsl(var(--accent-base) / 10%);
+    --accent-a200: hsl(var(--accent-base) / 20%);
+    --accent-a300: hsl(var(--accent-base) / 30%);
+    --accent-a400: hsl(var(--accent-base) / 40%);
+    --accent-a500: hsl(var(--accent-base) / 50%);
+    --accent-a600: hsl(var(--accent-base) / 60%);
+    --accent-a700: hsl(var(--accent-base) / 70%);
+    --accent-a800: hsl(var(--accent-base) / 80%);
+    --accent-a900: hsl(var(--accent-base) / 90%);
+    --accent-a950: hsl(var(--accent-base) / 95%);
+
+    --accent: hsl(var(--accent-base));
+  }
+}
