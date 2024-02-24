@@ -75,7 +75,7 @@ const generateColorFiles = () => {
 
         const id = i.toString().padStart(2, '0');
 
-        const fileName = `../layers/colors/${id}-${colorName}.css`;
+        const fileName = `../src/layers/colors/${id}-${colorName}.css`;
         const fileContent = generateFileContent(colorName, colorData);
 
         writeFileSync(fileName, fileContent);

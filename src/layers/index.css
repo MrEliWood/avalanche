@@ -1,0 +1,22 @@
+/* base */
+@layer base {
+    @layer reset;
+    @layer colors;
+}
+
+@import './reset.css';
+@import './colors/index.css';
+
+/* theme */
+@layer theme;
+@import './themeDefaults.css';
+
+/* superset */
+@layer superset {
+    @layer sizes, fonts, animations, elements;
+}
+
+@import './sizes.css';
+@import './fonts.css';
+@import './elements.css';
+@import './animations.css';
