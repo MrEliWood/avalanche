@@ -1,49 +1,55 @@
 @layer fonts {
-	:root {
-		/*** from theme ***********************************
+  :root {
+    /*** from theme ***********************************
       --font-size
     **************************************************/
 
-		/* sizes */
-		--font-1: calc(var(--font-size) * 0.75);
-		--font-2: calc(var(--font-size) * 0.875);
-		--font-3: var(--font-size);
-		--font-4: calc(var(--font-size) * 1.125);
-		--font-5: calc(var(--font-size) * 1.5);
-		--font-6: calc(var(--font-size) * 1.875);
-		--font-7: calc(var(--font-size) * 2.25);
-		--font-8: calc(var(--font-size) * 2.5);
-		--font-9: calc(var(--font-size) * 3);
-		--font-10: calc(var(--font-size) * 4.5);
-	}
+    /* sizes */
+    --font-1: calc(var(--font-size) * 0.8);
+    --font-2: calc(var(--font-size) * 0.875);
+    --font-3: var(--font-size);
+    --font-4: calc(var(--font-size) * 1.125);
+    --font-5: calc(var(--font-size) * 1.5);
+    --font-6: calc(var(--font-size) * 1.875);
+    --font-7: calc(var(--font-size) * 2.25);
+    --font-8: calc(var(--font-size) * 2.5);
+    --font-9: calc(var(--font-size) * 3);
+    --font-10: calc(var(--font-size) * 4.5);
 
-	h1 {
-		font-size: var(--font-10);
-		font-weight: 800;
-	}
+    /* weights */
+    --font-thin: 200;
+    --font-normal: 400;
+    --font-bold: 600;
+    --font-black: 700;
+  }
 
-	h2 {
-		font-size: var(--font-8);
-		font-weight: 800;
-	}
+  h1 {
+    font-size: var(--font-6);
+    font-weight: var(--font-black);
+  }
 
-	h3 {
-		font-size: var(--font-6);
-		font-weight: 400;
-	}
+  h2 {
+    font-size: var(--font-5);
+    font-weight: var(--font-black);
+  }
 
-	h4 {
-		font-size: var(--font-4);
-		font-weight: 800;
-	}
+  h3 {
+    font-size: var(--font-4);
+    font-weight: var(--font-black);
+  }
 
-	h5 {
-		font-size: var(--font-2);
-		font-weight: 800;
-	}
+  h4 {
+    font-size: var(--font-3);
+    font-weight: var(--font-bold);
+  }
 
-	h6 {
-		font-size: var(--font-1);
-		font-weight: 800;
-	}
+  h5 {
+    font-size: var(--font-2);
+    font-weight: var(--font-normal);
+  }
+
+  h6 {
+    font-size: var(--font-1);
+    font-weight: var(--font-normal);
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "prismaticss",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple style framework for vanilla CSS.",
   "main": "dist/index.cjs.js",
   "module": "dist/es/index.esm.js",
