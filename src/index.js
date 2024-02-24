@@ -1,3 +1,6 @@
+// import './layers/index.css';
+import './layers.css';
+
 /* base ******************************************/
 /***** reset ****************************************/
 import './layers/reset.css';
@@ -26,13 +29,11 @@ import './layers/colors/palette/19-purple.css';
 import './layers/colors/palette/20-fuchsia.css';
 import './layers/colors/palette/21-pink.css';
 import './layers/colors/palette/22-rose.css';
-import './layers/colors/palette/index.css';
 
 import './layers/colors/primary.css';
 import './layers/colors/secondary.css';
 import './layers/colors/accent.css';
 import './layers/colors/compliment.css';
-import './layers/colors/index.css';
 
 /* theme *****************************************/
 import './layers/themeDefaults.css';
@@ -49,5 +50,3 @@ import './layers/animations.css';
 
 /***** elements *************************************/
 import './layers/elements.css';
-
-import './layers/index.css';

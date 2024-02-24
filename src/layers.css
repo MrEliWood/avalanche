@@ -1,0 +1,10 @@
+@layer base {
+  @layer reset;
+  @layer colors;
+}
+
+@layer theme;
+
+@layer superset {
+  @layer sizes, fonts, animations, elements;
+}
