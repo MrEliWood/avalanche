@@ -140,9 +140,37 @@ The expansive library offers a superset of CSS variables, based on your custom t
 
 ### Colors
 
-| Primary                                                                | Solid                                                                                        | Alpha                                                                                                   | Example                                                                                        |
-| :--------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| --primary-\* <br> --secondary-\* <br> --accent-\* <br> --compliment-\* | 50 <br> 100 <br> 200 <br> 300 <br> 400 <br> 500 <br> 600 <br> 700 <br> 800 <br> 900 <br> 950 | a50 <br> a100 <br> a200 <br> a300 <br> a400 <br> a500 <br> a600 <br> a700 <br> a800 <br> a900 <br> a950 | var(--primary-a50) <br> var(--secondary-100) <br> var(--accent-200) <br> var(--compliment-300) |
+#### Scale
+
+| Light |     |     |     |     |     |     |     |     |     | Dark |
+| ----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :--: |
+|    50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | 950  |
+
+<br>
+
+#### Opacity
+
+To use an alpha color value, prefix the number with an `a`.
+
+| Clear |      |      |      |      |      |      |      |      |      | Solid |
+| ----: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ----: |
+|   a50 | a100 | a200 | a300 | a400 | a500 | a600 | a700 | a800 | a900 |  a950 |
+|    5% |  10% |  20% |  30% |  40% |  50% |  60% |  70% |  80% |  90% |   95% |
+
+<br>
+
+| Prefix          | Example               |
+| :-------------- | --------------------- |
+| --primary-\*    | var(--primary-a50)    |
+| --secondary-\*  | var(--secondary-100)  |
+| --accent-\*     | var(--accent-200)     |
+| --compliment-\* | var(--compliment-300) |
+
+<br>
+
+### [tailwindcss](https://tailwindcss.com/docs/customizing-colors)
+
+Prismaticss also provides variables for [tailwind'](https://tailwindcss.com/docs/customizing-colors) expertly-crafted color palette.
 
 ## Credits
 
